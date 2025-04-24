@@ -7,3 +7,10 @@ search: false
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
+
+.conference-header {
+  background-color: $primary-color;
+  color: white;
+  padding: 2em;
+  margin-bottom: 2em;
+}

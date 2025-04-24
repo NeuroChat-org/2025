@@ -1,0 +1,10 @@
+- day: 1
+  date: 2023-10-15
+  events:
+    - time: "09:00-09:30"
+      title: "注册"
+      location: "大堂"
+    - time: "09:30-10:30"
+      title: "开幕式"
+      speaker: "王教授"
+      location: "主会场"

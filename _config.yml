@@ -95,7 +95,7 @@ conference:
   acronym: "NC2025"
   date: "2025-06-13 至 2025-06-15"
   location: "中国，苏州"
-  venue: "苏州"
+  
   deadline: "2025-06-15"
   map_link: ""
   venue:
@@ -105,6 +105,7 @@ conference:
     photo: "/assets/images/venue.jpg"
 
 minimal_mistakes_skin: "air"
+
 palette:
   primary: "#003366"  # 学术蓝
   secondary: "#990000" # 强调色

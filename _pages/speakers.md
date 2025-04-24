@@ -2,10 +2,10 @@
 layout: single  
 title: "演讲嘉宾"
 permalink: /speakers/  # 页面URL
-excerpt: "本次会议特邀国内外知名专家作主题报告"  # 页面摘要
+excerpt: ""  # 页面摘要
 header:
-  overlay_image: /assets/images/speakers-banner.jpg  # 页头横幅图
-  overlay_filter: rgba(0, 0, 0, 0.6)  # 半透明遮罩
+  overlay_image: /assets/images/banner.jpg  # 页头横幅图
+  overlay_filter: rgba(0, 0, 0, 0.1)  # 半透明遮罩
 ---
 
 {% raw %}

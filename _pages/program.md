@@ -1,7 +1,11 @@
 ---
-layout: single  # 使用单栏布局
+layout: single
 title: "会议日程"
 permalink: /program/
+header:
+  overlay_image: /assets/images/banner.jpg
+  overlay_filter: rgba(0, 0, 0, 0.1)  # 半透明遮罩
+  # caption: "Photo by [NASA](https://unsplash.com)"
 ---
 
 {% raw %}

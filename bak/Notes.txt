@@ -1,0 +1,7 @@
+- **投稿截止**：{{ site.conference.deadline | date: "%Y年%m月%d日" }}
+
+![会议横幅](/assets/images/banner.jpg)
+
+![会场外景](/assets/images/venue.jpg){: .align-center width="60%"}
+*图：会议中心外景*
+

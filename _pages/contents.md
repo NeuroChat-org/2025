@@ -1,17 +1,18 @@
 ---
-layout: single  
+layout: single
 title: "往年活动"
-permalink: /contents/  # 页面URL
-excerpt: "" 
+permalink: /contents/
+excerpt: ""
 header:
-  overlay_image: /assets/images/banner.jpg  # 页头横幅图
-  overlay_filter: rgba(0, 0, 0, 0.1)  # 半透明遮罩
+  overlay_image: /assets/images/banner.jpg
+  overlay_filter: rgba(0, 0, 0, 0.1)
 ---
 
-{% raw %}
-  {% for content in site.data.contents %}
-    <h3>{{ content.year }}</h3>
-    地点：<p class="speaker-affiliation">{{ content.place }}</p>
-    网站：<p class="speaker-affiliation">{{ content.link }}</p>
-  {% endfor %}
-{% endraw %}
+{% for content in site.data.contents %}
+
+  <h3>{{ content.year }}</h3>
+  <p class="speaker-affiliation">地点：{{ content.place }}</p>
+  <p class="speaker-affiliation">网站：
+    <a href="{{ content.link }}" target="_blank">{{ content.link }}</a>
+  </p>
+{% endfor %}

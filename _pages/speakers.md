@@ -1,14 +1,13 @@
 ---
-layout: single  
+layout: single
 title: "演讲嘉宾"
-permalink: /speakers/  # 页面URL
-excerpt: ""  # 页面摘要
+permalink: /speakers/ # 页面URL
+excerpt: "" # 页面摘要
 header:
-  overlay_image: /assets/images/banner.jpg  # 页头横幅图
-  overlay_filter: rgba(0, 0, 0, 0.1)  # 半透明遮罩
+  overlay_image: /assets/images/banner.jpg # 页头横幅图
+  overlay_filter: rgba(0, 0, 0, 0.1) # 半透明遮罩
 ---
 
-{% raw %}
 ## 主题报告嘉宾
 
 <div class="speakers-grid">
@@ -35,7 +34,6 @@ header:
     </div>
   {% endfor %}
 </div>
-{% endraw %}
 
 <style>
   /* 自定义演讲者卡片样式 */

@@ -1,17 +1,18 @@
-- name: "张伟"
-  affiliation: "清华大学计算机系"
+- name: "TBD"
+  affiliation: "TBD"
   bio: |
-    张伟教授是人工智能领域的国际权威，曾获**ACM杰出科学家奖**。
-    主要研究方向包括机器学习与自然语言处理。
+    TBD
   avatar: "/assets/images/speakers/zhangwei.jpg"
   keynote: true
 
-- name: "李芳"
-  affiliation: "斯坦福大学工程学院"
-  bio: "李芳教授在量子计算领域有突破性贡献，发表Nature论文10篇。"
+- name: "TBD"
+  affiliation: "TBD"
+  bio: "TBD"
   avatar: "/assets/images/speakers/lifang.jpg"
-  keynote: true
+  keynote: false
 
-- name: "王强"
-  affiliation: "北京大学信息科学技术学院"
+- name: "TBD"
+  affiliation: "TBD"
+  bio: "TBD"
   avatar: "/assets/images/speakers/wangqiang.jpg"
+  keynote: false

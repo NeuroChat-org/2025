@@ -16,7 +16,7 @@ header:
   <tr>
     <td>{{ event.time }}</td>
     <td>{{ event.title }}</td>
-    <td>{{ event.location }}</td>
+    <td>{{ event.speaker }}</td>
   </tr>
   {% endfor %}
 </table>

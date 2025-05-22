@@ -5,13 +5,47 @@
   avatar: "/assets/images/speakers/zhangwei.jpg"
   keynote: true
 
-- name: "TBD"
+- name: "蔡静"
+  affiliation: "Harvard Medical School, Massachusetts General Hospital"
+  bio: "Jing Cai is currently an Instructor at the Harvard Medical School, Neurosurgery Department in Massachusetts General Hospital, where she began as a research fellow in 2018. Prior to this position, she was a postdoctoral researcher in the Physics Department at the University of Pennsylvania, where she received her Ph.D. in 2015. She has also worked at the core modeling team at J. P. Morgan Chase after obtaining her Ph.D. Her first-author publications in Science and Nature Communications. Her research in studying semantic decoding has been supported by the Mussallem Transformative Award."
+  avatar: "/assets/images/speakers/caijing.jpg"
+  keynote: false
+- name: "陈树铨"
   affiliation: "TBD"
   bio: "TBD"
-  avatar: "/assets/images/speakers/lifang.jpg"
+  avatar: "/assets/images/speakers/wangqiang.jpg"
   keynote: false
-
-- name: "TBD"
+- name: "葛一君"
+  affiliation: "TBD"
+  bio: "TBD"
+  avatar: "/assets/images/speakers/wangqiang.jpg"
+  keynote: false
+- name: "马庆"
+  affiliation: "TBD"
+  bio: "TBD"
+  avatar: "/assets/images/speakers/wangqiang.jpg"
+  keynote: false
+- name: "夏涛"
+  affiliation: "TBD"
+  bio: "TBD"
+  avatar: "/assets/images/speakers/wangqiang.jpg"
+  keynote: false
+- name: "杨佳"
+  affiliation: "TBD"
+  bio: "TBD"
+  avatar: "/assets/images/speakers/wangqiang.jpg"
+  keynote: false
+- name: "杨千里"
+  affiliation: "TBD"
+  bio: "TBD"
+  avatar: "/assets/images/speakers/wangqiang.jpg"
+  keynote: false
+- name: "张光耀"
+  affiliation: "TBD"
+  bio: "TBD"
+  avatar: "/assets/images/speakers/wangqiang.jpg"
+  keynote: false
+- name: "赵博囡"
   affiliation: "TBD"
   bio: "TBD"
   avatar: "/assets/images/speakers/wangqiang.jpg"

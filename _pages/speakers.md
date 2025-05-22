@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "演讲嘉宾"
-permalink: /speakers/ # 页面URL
+permalink: / # 页面URL
 excerpt: "" # 页面摘要
 header:
   overlay_image: /assets/images/banner.jpg # 页头横幅图

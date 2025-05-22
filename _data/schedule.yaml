@@ -1,10 +1,20 @@
 - day: 1
-  date: 2025-06-14
+  date: 2025-06-13
   events:
-    - time: "09:00-09:30"
-      title: "注册"
+    - time: "全天"
+      title: "到会"
       location: "大堂"
-    - time: "09:30-10:30"
-      title: "开幕式"
-      speaker: "王教授"
+- day: 2
+  date: 2025-06-14
+    - time: "09:00-10:00"
+      title: "开幕式&Keynote"
+      speaker: "TBD"
+      location: "主会场"
+    - time: "10:00-12:30"
+      title: "报告"
+      speaker: "蔡静|陈树铨|葛一君|马庆"
+      location: "主会场"
+    - time: "13:30-16:00"
+      title: "报告"
+      speaker: "蔡静|陈树铨|葛一君|马庆"
       location: "主会场"

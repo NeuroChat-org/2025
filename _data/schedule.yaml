@@ -6,18 +6,19 @@
       location: "大堂"
 - day: 2
   date: 2025-06-14
+  events:
     - time: "09:00-10:00"
       title: "开幕式&Keynote"
       speaker: "TBD"
       location: "主会场"
-#    - time: "10:00-12:30"
-#      title: "报告"
-#      speaker: "蔡静|陈树铨|葛一君|马庆"
-#      location: "主会场"
-#    - time: "13:30-16:00"
-#      title: "报告"
-#      speaker: "蔡静|陈树铨|葛一君|马庆"
-#      location: "主会场"
+    - time: "10:00-12:30"
+      title: "报告"
+      speaker: "蔡静|陈树铨|葛一君|马庆"
+      location: "主会场"
+    - time: "13:30-16:00"
+      title: "报告"
+      speaker: "蔡静|陈树铨|葛一君|马庆"
+      location: "主会场"
 - day: 3
   date: 2025-06-15
   events:

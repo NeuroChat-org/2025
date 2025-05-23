@@ -60,6 +60,14 @@ header:
     document.body.addEventListener('click', function(e) {
       const toggle = e.target.closest('.abstract-toggle');
       if (toggle) {
+      
+        document.querySelectorAll('.abstract-container').forEach(container => {
+          if (container !== document.getElementById(toggle.getAttribute('data-target'))) {
+            container.style.display = 'none';
+            container.previousElementSibling.classList.remove('active');
+          }
+        });
+      
         toggle.classList.toggle('active');
       }
     });

@@ -24,6 +24,9 @@ header:
   .abstract-toggle:hover {
     text-decoration: underline;
   }
+  .abstract-toggle.active + .abstract-container {
+    display: block; 
+  }
 </style>
 
 {% for day in site.data.schedule %}
@@ -57,11 +60,7 @@ header:
     document.body.addEventListener('click', function(e) {
       const toggle = e.target.closest('.abstract-toggle');
       if (toggle) {
-        const targetId = toggle.getAttribute('data-target');
-        const abstract = document.getElementById(targetId);
-        if (abstract) {
-          abstract.style.display = abstract.style.display === 'none' ? 'block' : 'none';
-        }
+        toggle.classList.toggle('active');
       }
     });
   });

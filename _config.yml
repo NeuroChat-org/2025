@@ -67,7 +67,8 @@ reCaptcha:
   secret                 :
 atom_feed:
   path                   : # blank (default) uses feed.xml
-  hide                   : # true, false (default)
+  #hide                   : # true, false (default)
+  hide                   :  true
 search                   : # true, false (default)
 search_full_content      : # true, false (default)
 search_provider          : # lunr (default), algolia, google
@@ -102,7 +103,7 @@ conference:
     name: "苏州太美雪绿民宿"
     address: "江苏省苏州市吴中区光福镇邓尉村桑园里苗圃"
     map_link: "https://surl.amap.com/lXByxWFgdoD"
-    photo: "/2025/assets/images/venue.jpg"
+    photo: /assets/images/venue.jpg
 
 minimal_mistakes_skin: "air"
 palette:
@@ -174,7 +175,7 @@ footer:
       # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url:
+      url: https://github.com/NeuroChat-org
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url:

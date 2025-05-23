@@ -9,7 +9,6 @@
   events:
     - time: "北京09:00(巴黎3:00, 纽约21:00)"
       title: "开幕式"
-      speaker: false
       location: "主会场"
     - time: ""
       title: "Keynote"

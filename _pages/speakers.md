@@ -63,4 +63,9 @@ header:
     color: #666;
     font-style: italic;
   }
+  .speaker-bio {
+  text-align: justify;
+  text-justify: inter-word; /* 或 inter-character 根据需求 */
+  hyphens: auto; /* 允许单词在必要时断字 */
+}
 </style>

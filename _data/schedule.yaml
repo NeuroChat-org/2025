@@ -7,7 +7,7 @@
 - day: 2
   date: 2025-06-14
   events:
-    - time: "北京09:00(巴黎3:00, 纽约21:00)"
+    - time: "北京09:00<br>(巴黎3:00, 纽约21:00)"
       title: "开幕式"
       location: "主会场"
     - time: ""
@@ -16,7 +16,7 @@
       location: "主会场"
       abstract: "TBD"
 
-    - time: "北京10:00(巴黎4:00, 纽约22:00)"
+    - time: "北京10:00<br>(巴黎4:00, 纽约22:00)"
       title: "Semantic Processing and Decoding Using Intracranial Recordings in Humans"
       speaker: "蔡静"
       location: "主会场"
@@ -37,7 +37,7 @@
       location: "主会场"
       abstract: "睡眠在维持生命活动、调节生理功能以及促进脑发育和认知能力方面发挥着关键作用。青春期是睡眠模式发生显著变化的阶段，常表现为入睡延迟、睡眠时间缩短以及昼夜节律的重新调整，这些变化通常与神经系统的持续成熟过程相伴。由于这些神经系统对认知发展和成年功能准备至关重要，深入理解睡眠与脑发育之间的关系，尤其是对认知能力的影响，具有重要意义。尽管成人群体中关于睡眠的神经机制已有较多研究，青春期，尤其是青春期早期个体的睡眠神经表征仍缺乏系统性探讨。本报告基于3000余名11至12岁青少年，通过腕戴设备获取的客观睡眠数据，结合机器学习方法，识别与不同睡眠模式相关的脑结构和功能连接特征，并进一步探讨这些模式与认知能力及学业表现之间的关系。"
 
-    - time: "北京13:30(巴黎7:30, 纽约1:30)"
+    - time: "北京13:30<br>(巴黎7:30, 纽约1:30)"
       title: "Unraveling Human Cognition During Sleep: From Active Stimulation to Behavioral Response"
       speaker: "夏涛"
       location: "主会场"

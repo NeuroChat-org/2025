@@ -36,7 +36,7 @@ header:
   {% for event in day.events %}
   <tr>
     <td style="width: 15%;">{{ event.time }}</td>
-    <td style="width: 75%;">
+    <td style="width: 70%;">
       {% if event.speaker %}
         <div class="abstract-toggle" data-target="abstract-{{ forloop.parentloop.index }}-{{ forloop.index }}">
           {{ event.title }}
@@ -48,7 +48,7 @@ header:
         {{ event.title }}
       {% endif %}
     </td>
-    <td style="width: 10%;">{{ event.speaker }}</td>
+    <td style="width: 15%;">{{ event.speaker }}</td>
   </tr>
   {% endfor %}
 </table>

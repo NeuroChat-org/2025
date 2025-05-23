@@ -42,7 +42,7 @@ header:
   /* 自定义演讲者卡片样式 */
   .speakers-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-template-columns: repeat(1, minmax(250px, 1fr));
     gap: 2rem;
     margin: 2rem 0;
   }

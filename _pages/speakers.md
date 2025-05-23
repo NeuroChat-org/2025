@@ -27,7 +27,7 @@ header:
 
 <div class="speakers-grid">
   {% for speaker in site.data.speakers %}
-    {% if not speaker.keynote %}
+    {% if speaker.keynote == false %}
       <div class="speaker-card">
         <img src="{{ speaker.avatar  | relative_url}}" alt="{{ speaker.name }}" class="speaker-avatar">
         <h3>{{ speaker.name }}</h3>

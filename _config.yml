@@ -103,7 +103,7 @@ conference:
     name: "苏州太美雪绿民宿"
     address: "江苏省苏州市吴中区光福镇邓尉村桑园里苗圃"
     map_link: "https://surl.amap.com/lXByxWFgdoD"
-    photo: /assets/images/venue.jpg
+    photo: "/2025/assets/images/venue.jpg"
 
 minimal_mistakes_skin: "air"
 palette:

@@ -14,7 +14,7 @@ header:
   {% for speaker in site.data.speakers %}
     {% if speaker.keynote %}
       <div class="speaker-card">
-        <img src="{{ speaker.avatar }}" alt="{{ speaker.name }}" class="speaker-avatar">
+        <img src="{{ speaker.avatar | relative_url}}" alt="{{ speaker.name }}" class="speaker-avatar">
         <h3>{{ speaker.name }}</h3>
         <p class="speaker-affiliation">{{ speaker.affiliation }}</p>
         <div class="speaker-bio">{{ speaker.bio | markdownify }}</div>

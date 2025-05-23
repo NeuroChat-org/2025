@@ -23,18 +23,15 @@ header:
   {% endfor %}
 </div>
 
-## 演讲嘉宾
+## 全体演讲嘉宾
 
 <div class="speakers-grid">
   {% for speaker in site.data.speakers %}
-    {% if not speaker.keynote %}
-      <div class="speaker-card">
-        <img src="{{ speaker.avatar  | relative_url}}" alt="{{ speaker.name }}" class="speaker-avatar">
-        <h3>{{ speaker.name }}</h3>
-        <p class="speaker-affiliation">{{ speaker.affiliation }}</p>
-        <div class="speaker-bio">{{ speaker.bio | markdownify }}</div>
-      </div>
-    {% endif %}
+    <div class="speaker-card">
+      <img src="{{ speaker.avatar  | relative_url}}" alt="{{ speaker.name }}" class="speaker-avatar">
+      <h3>{{ speaker.name }}</h3>
+      <p class="speaker-affiliation">{{ speaker.affiliation }}</p>
+    </div>
   {% endfor %}
 </div>
 

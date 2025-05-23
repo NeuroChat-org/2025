@@ -33,13 +33,16 @@ header:
   <tr>
     <td>{{ event.time }}</td>
     <td>
-      <span class="abstract-toggle" onclick="toggleAbstract('abstract-{{ forloop.parentloop.index }}-{{ forloop.index }}')">
-        {{ event.title }}
-      </span>
-      {% if event.abstract and event.speaker %}
+      {% if event.abstract and event.speaker==false %}
+        <span class="abstract-toggle" onclick="toggleAbstract('abstract-{{ forloop.parentloop.index }}-{{ forloop.index }}')">
+          {{ event.title }}
+        </span>
         <div id="abstract-{{ forloop.parentloop.index }}-{{ forloop.index }}" class="abstract-container">
           {{ event.abstract }}
         </div>
+      {% endif %}
+      {% if event.abstract and event.speaker!=false %}
+        {{ event.title }}
       {% endif %}
     </td>
     <td>{{ event.speaker }}</td>

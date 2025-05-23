@@ -19,6 +19,7 @@ header:
   .abstract-toggle {
     cursor: pointer;
     color: #0066cc;
+    display: block;
   }
   .abstract-toggle:hover {
     text-decoration: underline;
@@ -34,9 +35,9 @@ header:
     <td>{{ event.time }}</td>
     <td>
       {% if event.speaker %}
-        <span class="abstract-toggle" onclick="toggleAbstract('abstract-{{ forloop.parentloop.index }}-{{ forloop.index }}')">
+        <div class="abstract-toggle" data-target="abstract-{{ forloop.parentloop.index }}-{{ forloop.index }}">
           {{ event.title }}
-        </span>
+        </div>
         <div id="abstract-{{ forloop.parentloop.index }}-{{ forloop.index }}" class="abstract-container">
           {{ event.abstract }}
         </div>
@@ -51,10 +52,17 @@ header:
 {% endfor %}
 
 <script>
-  function toggleAbstract(id) {
-    const element = document.getElementById(id);
-    if (element) {
-      element.style.display = element.style.display === 'none' ? 'block' : 'none';
-    }
-  }
+  // 使用事件委托提高性能
+  document.addEventListener('DOMContentLoaded', function() {
+    document.body.addEventListener('click', function(e) {
+      const toggle = e.target.closest('.abstract-toggle');
+      if (toggle) {
+        const targetId = toggle.getAttribute('data-target');
+        const abstract = document.getElementById(targetId);
+        if (abstract) {
+          abstract.style.display = abstract.style.display === 'none' ? 'block' : 'none';
+        }
+      }
+    });
+  });
 </script>

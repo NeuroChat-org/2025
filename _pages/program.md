@@ -49,3 +49,12 @@ header:
   {% endfor %}
 </table>
 {% endfor %}
+
+<script>
+  function toggleAbstract(id) {
+    const element = document.getElementById(id);
+    if (element) {
+      element.style.display = element.style.display === 'none' ? 'block' : 'none';
+    }
+  }
+</script>

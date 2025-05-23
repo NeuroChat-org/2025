@@ -9,7 +9,7 @@ header:
 ---
 
 ## 会议简介
-{{ site.description }}
+{{ site.description | replace: "__NEWLINE__", "<br>"}}
 
 ### 重要日期
 - **会议日期**：{{ site.conference.date }}

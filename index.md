@@ -1,5 +1,5 @@
 ---
-layout: wide
+layout: single
 # title: "Welcome!"
 permalink: /
 header:
@@ -7,9 +7,9 @@ header:
   overlay_filter: rgba(0, 0, 0, 0.1)  # 半透明遮罩
   # caption: "Photo by [NASA](https://unsplash.com)"
 ---
-
+<div class="full">
 ## 会议简介
-{{ site.description | replace: "__NEWLINE__", "<br>"}}
+{{ site.description }}
 
 ### 重要日期
 - **会议日期**：{{ site.conference.date }}
@@ -23,3 +23,4 @@ header:
 {% endif %}
 
 [查看日程](/program/){: .btn .btn--info}
+</div>

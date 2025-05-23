@@ -21,7 +21,7 @@ title                    : "neurochat 2025"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "NeuroChat 2025"
-description              : "neurochat于2020年由青年脑科学家发起，旨在鼓励华人青年脑科学家之间的学术交流与合作。2020/2021/2022/2023/2024年的会议共得到了海内外数千名听众的响应，为学术界的后起之秀们提供了展示他们学术成果的绝佳舞台。neurochat 2025邀请的报告人主要聚焦在：尚没有tenure的青年faculty；处于job market的senior postdoc；增加研究人员多样性的青年学者。今年的neurochat获得了全球知名研究机构天桥脑科学研究院的赞助支持。天桥脑科学研究院由陈天桥与雒芊芊夫妇于2016年创办，致力于推动在大脑探知、大脑相关疾病治疗和大脑功能开发三大核心领域的科学研究，资助了众多的认知神经科学界研究(https://www.cheninstitute.org/)。"
+description              : "neurochat于2020年由青年脑科学家发起，旨在鼓励华人青年脑科学家之间的学术交流与合作。2020/2021/2022/2023/2024年的会议共得到了海内外数千名听众的响应，为学术界的后起之秀们提供了展示他们学术成果的绝佳舞台。\nneurochat 2025邀请的报告人主要聚焦在：尚没有tenure的青年faculty；处于job market的senior postdoc；增加研究人员多样性的青年学者。\n今年的neurochat获得了全球知名研究机构天桥脑科学研究院的赞助支持。天桥脑科学研究院由陈天桥与雒芊芊夫妇于2016年创办，致力于推动在大脑探知、大脑相关疾病治疗和大脑功能开发三大核心领域的科学研究，资助了众多的认知神经科学界研究(https://www.cheninstitute.org/)。"
 url                      : 'https://neurochat-org.github.io/2025/' # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : neurochat-org/2025 # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"

@@ -36,7 +36,7 @@ header:
       <span class="abstract-toggle" onclick="toggleAbstract('abstract-{{ forloop.parentloop.index }}-{{ forloop.index }}')">
         {{ event.title }}
       </span>
-      {% if event.abstract %}
+      {% if event.abstract & event.speaker %}
         <div id="abstract-{{ forloop.parentloop.index }}-{{ forloop.index }}" class="abstract-container">
           {{ event.abstract }}
         </div>

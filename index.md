@@ -10,6 +10,7 @@ header:
 <div class="full">
 ## 会议简介
 {{ site.description }}
+</div>
 
 ### 重要日期
 - **会议日期**：{{ site.conference.date }}
@@ -23,4 +24,3 @@ header:
 {% endif %}
 
 [查看日程](/program/){: .btn .btn--info}
-</div>

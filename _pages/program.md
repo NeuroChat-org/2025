@@ -35,8 +35,8 @@ header:
 <table>
   {% for event in day.events %}
   <tr>
-    <td>{{ event.time }}</td>
-    <td>
+    <td style="width: 15%;">{{ event.time }}</td>
+    <td style="width: 75%;">
       {% if event.speaker %}
         <div class="abstract-toggle" data-target="abstract-{{ forloop.parentloop.index }}-{{ forloop.index }}">
           {{ event.title }}
@@ -48,7 +48,7 @@ header:
         {{ event.title }}
       {% endif %}
     </td>
-    <td>{{ event.speaker }}</td>
+    <td style="width: 10%;">{{ event.speaker }}</td>
   </tr>
   {% endfor %}
 </table>
@@ -60,14 +60,6 @@ header:
     document.body.addEventListener('click', function(e) {
       const toggle = e.target.closest('.abstract-toggle');
       if (toggle) {
-      
-        document.querySelectorAll('.abstract-container').forEach(container => {
-          if (container !== document.getElementById(toggle.getAttribute('data-target'))) {
-            container.style.display = 'none';
-            container.previousElementSibling.classList.remove('active');
-          }
-        });
-      
         toggle.classList.toggle('active');
       }
     });

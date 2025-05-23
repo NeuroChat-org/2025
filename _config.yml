@@ -185,6 +185,8 @@ footer:
       icon: "fab fa-fw fa-instagram"
       # url:
 
+feed:
+  show: false
 
 # Reading Files
 include:

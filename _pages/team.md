@@ -8,6 +8,4 @@ header:
   overlay_filter: rgba(0, 0, 0, 0.1)  # 半透明遮罩
 ---
 
-{% if site.conference.team.photo %}
-![组委会]({{ site.conference.team.photo }}){: .align-right width="100%"}
-{% endif %}
+![组委会]("/2025/assets/images/team.png"){: .align-right width="100%"}

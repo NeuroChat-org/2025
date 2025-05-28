@@ -9,5 +9,5 @@ header:
 ---
 
 {% if site.conference.venue.photo %}
-![组委会]({{ site.team.photo| absolute_url }}){: .align-right width="100%"}
+![组委会]({{site.team.photo}}| absolute_url){: .align-right width="100%"}
 {% endif %}

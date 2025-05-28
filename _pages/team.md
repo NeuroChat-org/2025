@@ -8,4 +8,4 @@ header:
   overlay_filter: rgba(0, 0, 0, 0.1) # 半透明遮罩
 ---
 
-![组委会]({{ site.team.photo}}){: .align-right width="100%"}
+![组委会]({{ site.team.photo}}){: .align-right style="width: 100%; height: auto;"}

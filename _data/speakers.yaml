@@ -36,6 +36,11 @@
   bio: "杨佳博士在中国科学院心理研究所获得博士学位，随后在北京大学从事博士后研究工作。她的研究聚焦于人类和非人灵长类视觉学习的计算框架以及神经编码机制。系列成果以第一作者身份发表在PNAS，psychological science等期刊。"
   avatar: "/assets/images/speakers/yangjia.jpg"
   keynote: false
+- name: "Andrew Luo (罗逸飞)"
+  affiliation: "HKU Institute of Data Science & Psychology"
+  bio: "Andrew Luo is an assistant professor in HKU Institute of Data Science & Psychology. His current research focuses on understanding representations in human visual cortex, and leveraging insights from human cognition to improve machine reasoning. Prior to HKU, he obtained his PhD in Machine learning & Neural Computation from Carnegie Mellon University, and obtained his BSc in computer science from MIT. His research areas include computational neuroscience, brain–computer interface, and 2D/3D scene representations."
+  avatar: "/assets/images/speakers/aluo.jpg"
+  keynote: false
 - name: "杨千里"
   affiliation: "Institute of Neuroscience, Chinese Academy of Sciences"
   bio: "Qianli Yang, Ph.D., is an Associate Investigator at the Institute of Neuroscience, Chinese Academy of Sciences. He obtained his bachelor's degree in physics from Nanjing University and a Ph.D. in Electrical and Computer Engineering from Rice University. His research focuses on understanding how the brain constructs structured and probabilistic representations to achieve efficient perception, causal reasoning, and flexible decision-making."

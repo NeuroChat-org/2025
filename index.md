@@ -16,6 +16,10 @@ header:
 ### 重要日期
 - **会议日期**：{{ site.conference.date }}
 
+### 线上会议入口
+- **腾讯会议**：796-681-642 会议密码 250614
+- **微信直播**：请关注微信公众号 neurochat 神聊
+
 ### 会议地点
 **{{ site.conference.venue.name }}**  
 地址：{{ site.conference.venue.address }}  

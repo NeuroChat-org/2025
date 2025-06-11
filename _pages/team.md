@@ -11,5 +11,5 @@ header:
 ![组委会]({{ site.team.photo}}){: .align-right style="width: 100%; height: auto;"}
 
 ### 联系方式
-微信公众号：neurochat 神聊
-Email: neurochatofficial@gmail.com
+- 微信公众号：neurochat 神聊
+- Email: neurochatofficial@gmail.com
